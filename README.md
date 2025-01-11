@@ -18,5 +18,6 @@ app.mount('#app')
 
 使用
 ```aiignore
-<hl-button><hl-button>
+<hl-button fuck>按钮</hl-button>
+
 ```
