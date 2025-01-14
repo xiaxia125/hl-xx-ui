@@ -7,8 +7,8 @@ export default defineConfig({
   build:{
     lib:{
       entry:path.resolve(__dirname,'./packages/index.js'),
-      name:'hl-xx-ui',
-      fileName: (format) => `hl-xx-ui.${format}.js`  // 打包生成的文件名
+      name:'hilai-ui',
+      fileName: (format) => `hilai-ui.${format}.js`  // 打包生成的文件名
     },
     rollupOptions:{
       external:['vue'],

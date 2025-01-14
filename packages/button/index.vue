@@ -15,10 +15,6 @@ const props = defineProps({
   }
 })
 
-const attrs = useAttrs(); // 获取所有属性
-
-const emit = defineEmits(['click']);
-
 const clickFn = () => {
   emit('click')
   if(props.fuck){
